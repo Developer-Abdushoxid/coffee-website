@@ -4,21 +4,33 @@
   box-sizing: border-box;
 }
 
+@font-face {
+  font-family: "Playfair Display";
+  src: url('./assets/font//PlayfairDisplay-Italic-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Clicker Script";
+  src: url('./assets/font/ClickerScript-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
 a{
   text-decoration: none;
   color: black;
+  font-family: "Playfair Display", serif;
+  color: white;
 }
 
 li{
   list-style: none;
-  font-family: 'Inconsolata';
+  font-family: "Playfair Display", serif;
   color: white;
-  font-size: 20px;
 }
 
-@font-face {
-  font-family: 'Inconsolata';
-  src: url('./assets/font/Inconsolata_Condensed-Black.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
+
+

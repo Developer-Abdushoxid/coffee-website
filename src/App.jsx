@@ -1,14 +1,16 @@
 import React from 'react'
 import Navbar from './components/Navbar/Navbar'
-import Main from './components/Main/Main'
+import Hero from './components/Hero/Hero'
 import './App.css'
+import About from './components/About/About'
 const App = () => {
   return (
     <div>
       <div className='layout'>
       <Navbar />
-      <Main />
+      <Hero />
       </div>
+      <About />
     </div>
   )
 }

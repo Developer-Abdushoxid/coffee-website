@@ -1,0 +1,38 @@
+.main-container{
+    width: 100%;
+    height: 85vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 50px;
+    color: white;
+}
+
+.main-content{
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.main-content h1{
+    font-size: 150px;
+  font-family: "Clicker Script", cursive;
+
+}
+
+.main-content p{
+    font-size: 20px;
+    font-family: "Playfair Display", serif;
+}
+
+.main-content button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F9C06A;
+    font-family: "Playfair Display";
+
+}
