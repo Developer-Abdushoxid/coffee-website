@@ -1,0 +1,91 @@
+
+.whyUsContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    position: relative;
+}
+
+.blast{
+    position: absolute;
+    top: -50px;
+    right: 0;
+}
+
+.whyUsHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.whyUsHeader h1{
+    color: #693519;
+    font-size: 40px;
+}
+
+.whyUsHeader p{
+    color: #707070;
+}
+.whyUsCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.whyUsCard{
+    width: 240px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    flex-direction: column;
+    transition: all .5s ease;
+    background-color: #f8f1e7;
+
+}
+
+.whyUsCard:hover{
+    background-color: #FFEED8;
+    cursor: pointer;
+}
+
+.whyUsCard h3{
+    color: #693519;
+}
+
+.whyUsCard p{
+    color: #707070;
+}
+
+
+.whyUsBottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.whyUsBottom h2{
+  color: #693519;
+}
+
+.whyUsBottom p{
+    color: #707070;
+}
+
+.whyUsBottom button{
+    padding: 10px 30px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F9C06A;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+}

@@ -1,0 +1,65 @@
+.coffeeNewsContainer{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    text-align: center;
+}
+
+.coffeeNewsHeader{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.coffeeNewsHeader h1{
+    font-size: 40px;
+    font-family: "Playfair Display", serif;
+    color: #693519;
+}
+
+.coffeeNewsHeader p{
+    color: #707070;
+    font-family: "Playfair Display", serif;
+
+}
+
+.coffeeNewsCards{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.coffeeNewsCard{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #f8ecdc;
+    border: 1px solid #b4b1b1;
+}
+
+.coffeeNewsCard h3{
+    color: #693519;
+    font-weight: bold;
+}
+
+.coffeeNewsCard p:nth-child(4){
+    color: #693519;
+    font-weight: bold;
+}
+
+.coffeeNewsCard button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background-color: #F9C06A;
+    font-weight: bold;
+    font-family: "Playfair Display", serif;
+    margin-bottom: 20px;
+}

@@ -1,10 +1,11 @@
 import React from 'react';
 import './About.css'
 import aboutLeft from '../../assets/aboutImg/aboutLeft.png'
+import aboutBlast from '../../assets/aboutImg/coffee_blast.png'
 
 const About = () => {
   return (
-    <div>
+    <div className='about'>
         <div className="about-container">
             <div className="about-left">
                 <h2>Discover the best coffee</h2>
@@ -15,6 +16,7 @@ const About = () => {
                 <img src={aboutLeft} alt="Img" />
             </div>
         </div>
+        <img src={aboutBlast} alt="img" className='aboutBlast' />
     </div>
   )
 }
