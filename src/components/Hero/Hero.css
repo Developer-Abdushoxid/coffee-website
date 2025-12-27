@@ -19,13 +19,11 @@
 
 .main-content h1{
     font-size: 150px;
-  font-family: "Clicker Script", cursive;
 
 }
 
 .main-content p{
     font-size: 20px;
-    font-family: "Playfair Display", serif;
 }
 
 .main-content button{
@@ -33,6 +31,4 @@
     border: none;
     border-radius: 20px;
     background-color: #F9C06A;
-    font-family: "Playfair Display";
-
 }
