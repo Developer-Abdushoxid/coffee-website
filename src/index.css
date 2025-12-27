@@ -4,26 +4,9 @@
   box-sizing: border-box;
 }
 
-@font-face {
-  font-family: "Playfair Display";
-  src: url('./assets/font/PlayfairDisplay.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "Clicker Script";
-  src: url('./assets/font/ClickerScript.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 
 a{
   text-decoration: none;
-  color: black;
-  font-family: "Playfair Display", serif;
   color: white;
 }
 

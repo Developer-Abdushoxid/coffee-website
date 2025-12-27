@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
         <header>
             <div className="logo">
-                <h2 className='heading'>Bear Scene</h2>
+                <h2>Bear Scene</h2>
             </div>
             <nav>
                 <ul className='paragraph'>

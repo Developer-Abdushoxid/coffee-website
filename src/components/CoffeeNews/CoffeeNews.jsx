@@ -11,7 +11,7 @@ const CoffeeNews = () => {
     <div>
         <div className="coffeeNewsContainer">
             <div className="coffeeNewsHeader">
-                <h1 className='heading'>Enjoy a new blend of coffee style</h1>
+                <h1>Enjoy a new blend of coffee style</h1>
                 <p className='paragraph'>Explore all flavours of coffee with us. There is always a new cup worth experiencing</p>
             </div>
             <div className="coffeeNewsCards">
