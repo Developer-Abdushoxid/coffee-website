@@ -5,6 +5,8 @@ import './App.css'
 import About from './components/About/About'
 import CoffeeNews from './components/CoffeeNews/CoffeeNews'
 import WhyUs from './components/WhyUs/WhyUs'
+import Morning from './components/Morning/Morning'
+import Testimonial from './components/Testimonial/Testimonial'
 const App = () => {
   return (
     <div>
@@ -15,6 +17,8 @@ const App = () => {
       <About />
       <CoffeeNews />
       <WhyUs />
+      <Morning />
+      <Testimonial />
     </div>
   )
 }

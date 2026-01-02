@@ -1,0 +1,46 @@
+.morning-container{
+    width: 100%;
+    height: 70vh;
+    background-image: url('../../assets//imgs/bgImg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding-left: 70px;
+
+}
+
+.overline{
+    width: 100%;
+    height: 70vh;
+    background-color: rgba(128, 89, 47, 0.5);
+    position: relative;
+    top: 0;
+}
+
+.morning-content{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+}
+
+.morning-content h1{
+    font-size: 50px;
+}
+
+.morning-content p{
+    font-size: 18px;
+}
+
+.morning-content button{
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none;
+    background-color: #F9C06A;
+    font-weight: bold;
+}
